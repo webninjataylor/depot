@@ -2,7 +2,7 @@ require 'test_helper'
 
 class ProductsControllerTest < ActionController::TestCase
   setup do
-    @product = products(:ruby)
+    @product = products(:one)
     @update = {
       title: 'Test Title',
       description: 'Test description',
